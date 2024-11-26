@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Countries101
 
-## Getting Started
+## ⚙️ How to run
 
-First, run the development server:
+### 1. Install the dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`npm i`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### OR
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`yarn add`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 2. Environment Variables
 
-## Learn More
+### You need to config some variables in order to run the app:
 
-To learn more about Next.js, take a look at the following resources:
+`NEXT_PUBLIC_API_URL`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 3. Run the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Run the project using:
 
-## Deploy on Vercel
+`npm run dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### OR
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`yarn dev`
+
+# Technologies
+
+<div>
+ <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+   <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+   <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+   <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/shadcn/ui-000?style=for-the-badge&logo=shadcnui&logoColor=white">
+   <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/react query-FF4154?style=for-the-badge&logo=reactquery&logoColor=FFFFFF">
+   <img align="center" style="margin-top: 10px;" src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=FFFFFF">
+</div>
