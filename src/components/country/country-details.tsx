@@ -14,7 +14,7 @@ export default function CountryDetails({ country }: CountryDetailsProps) {
       <div className="flex flex-col items-center space-y-10">
         <div className="flex flex-col lg:flex-row items-center gap-4">
           <Image
-            src={country?.flagUrl || country?.commonName!}
+            src={country?.flagUrl as string}
             alt={country?.commonName!}
             width={250}
             height={250}
